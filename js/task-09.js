@@ -13,3 +13,5 @@ function onColorButton(event) {
   document.body.style.backgroundColor = getRandomHexColor();
   colorSpan.textContent = `${getRandomHexColor()}`;
 }
+// перевірив у себе на лайв сервері працює, на гітхаб сторінці чомусь ні
+// можливо ще догрузить.
