@@ -15,7 +15,7 @@ const images = [
 
 const imageGallery = document.querySelector(".gallery");
 const galleryImages = images.map(function ({ url, alt }) {
- return `<li><img scr=${url} alt='${alt}' width="320"></li>`
+ return `<li><img src=${url} alt='${alt}' width="320"></img></li>`
 }).join('');
 imageGallery.insertAdjacentHTML("afterbegin", galleryImages);
 imageGallery.style.display = "flex";
